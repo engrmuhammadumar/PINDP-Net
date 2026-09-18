@@ -1,0 +1,6 @@
+{
+  "dataset_root": "REPLACE_WITH_LOCAL_PHM_2010_DIRECTORY",
+  "labelled_cutters": ["c1", "c4", "c6"],
+  "blind_cutters": ["c2", "c3", "c5"],
+  "redistribute_raw_data": false
+}

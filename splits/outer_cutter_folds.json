@@ -1,0 +1,23 @@
+{
+  "outer_folds": [
+    {
+      "fold": "holdout_c1",
+      "training_cutters": ["c4", "c6"],
+      "evaluation_cutter": "c1"
+    },
+    {
+      "fold": "holdout_c4",
+      "training_cutters": ["c1", "c6"],
+      "evaluation_cutter": "c4"
+    },
+    {
+      "fold": "holdout_c6",
+      "training_cutters": ["c1", "c4"],
+      "evaluation_cutter": "c6"
+    }
+  ],
+  "blind_inference": {
+    "training_cutters": ["c1", "c4", "c6"],
+    "blind_cutters": ["c2", "c3", "c5"]
+  }
+}

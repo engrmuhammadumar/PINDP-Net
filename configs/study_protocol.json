@@ -1,0 +1,27 @@
+{
+  "model_name": "PINDP-Net",
+  "dataset": "PHM 2010 milling benchmark",
+  "labelled_cutters": ["C1", "C4", "C6"],
+  "blind_cutters": ["C2", "C3", "C5"],
+  "failure_threshold_mean_flank_wear_micrometre": 165.0,
+  "outer_evaluation_unit": "cutter",
+  "preprocessing_fit_scope": "outer-fold training cutters only",
+  "model_only_forward_latency_ms_per_sample": 2.35,
+  "end_to_end_latency": {
+    "warmup_runs": 100,
+    "timed_runs": 1000,
+    "batch_size_trajectory_prefixes": 1,
+    "ensemble_members": 3,
+    "feature_precision": "float64",
+    "network_precision": "float32",
+    "automatic_mixed_precision": false,
+    "median_ms_per_pass": 2561.479,
+    "mean_ms_per_pass": 2640.011,
+    "sd_ms_per_pass": 233.693,
+    "p95_ms_per_pass": 3039.744,
+    "p99_ms_per_pass": 3387.602,
+    "minimum_ms_per_pass": 2370.271,
+    "maximum_ms_per_pass": 5380.095
+  }
+}
+

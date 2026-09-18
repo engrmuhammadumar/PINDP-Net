@@ -1,0 +1,26 @@
+﻿{
+    "schema_version":  1,
+    "manifest_file":  "audits/dataset_manifest.csv",
+    "hash_algorithm":  "SHA-256",
+    "source_files_manifested":  1893,
+    "unique_content_hashes":  1892,
+    "duplicate_hash_groups":  1,
+    "duplicate_file_records":  2,
+    "derived_npz_files_excluded":  945,
+    "canonical_archive_verified":  false,
+    "duplicate_observations":  [
+                                   {
+                                       "sha256":  "28ea2a40c36f8008bcfbe0de34e7fb6294c5a4442bd85fb240413dd59eba9c08",
+                                       "files":  [
+                                                     "c4/c4/c_4_001.csv",
+                                                     "c4/c4/c_4_002.csv"
+                                                 ]
+                                   }
+                               ],
+    "notes":  [
+                  "Duplicate files were preserved unchanged.",
+                  "The duplicate is confined to cutter C4.",
+                  "The corresponding wear-reference records are different.",
+                  "The observation has not been independently checked against a canonical provider archive."
+              ]
+}

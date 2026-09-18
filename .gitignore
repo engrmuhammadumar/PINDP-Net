@@ -1,0 +1,79 @@
+# PHM 2010 raw dataset — never redistribute
+data/
+dataset/
+datasets/
+raw/
+raw_data/
+PHM Challenge 2010 Milling/
+PHM Challange 2010 Milling/
+c1/
+c2/
+c3/
+c4/
+c5/
+c6/
+*.wfs
+
+# Private and machine-specific configuration
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+configs/dataset_paths.local.json
+configs/*_local.*
+
+# Temporary outputs
+temp/
+tmp/
+cache/
+outputs/
+runs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large intermediate arrays
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.parquet
+
+# Documents that may contain identities or tracked changes
+*.doc
+*.docx
+*.pdf
+
+# Permit verified final PDF figures
+!figures/*.pdf
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
