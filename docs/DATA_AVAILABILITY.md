@@ -8,4 +8,3 @@ manuscript. After authorized download, this repository supplies a directory
 template, integrity-checking script, and filename, size, and SHA-256 manifest.
 Reference-dependent evaluation uses C1, C4, and C6. C2, C3, and C5 are treated
 solely as blind-inference trajectories.
-

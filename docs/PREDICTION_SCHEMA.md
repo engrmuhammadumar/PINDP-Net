@@ -11,4 +11,3 @@ file.
 Recommended provenance columns include outer_fold, ensemble_seed, and
 source_prediction_file. Each held-out prediction must originate only from
 models that did not train or select hyperparameters using that cutter.
-

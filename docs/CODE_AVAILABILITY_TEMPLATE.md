@@ -12,4 +12,3 @@ values, evaluation scripts, diagnostics, latency records, and reproduction
 commands.
 
 Remove every bracketed placeholder before submission.
-

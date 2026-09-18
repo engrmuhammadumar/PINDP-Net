@@ -33,4 +33,3 @@ if (Test-Path $Latency) {
 python scripts/prepublish_check.py
 python scripts/build_release_manifest.py
 Write-Host "Verification completed."
-

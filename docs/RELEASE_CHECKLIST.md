@@ -14,4 +14,3 @@
 - [ ] Citation metadata contains every author correctly.
 - [ ] Repository and archive links work while signed out.
 - [ ] The one-command verification completes successfully.
-
